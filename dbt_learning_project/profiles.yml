@@ -1,0 +1,13 @@
+dbt_learning_project:
+  outputs:
+    dev:
+      account: HFJKYZB-ZS17830
+      database: DBT_TUTORIAL_DEV
+      password: MEETaghera@12345
+      role: ACCOUNTADMIN
+      schema: SOURCE
+      threads: 4
+      type: snowflake
+      user: meetaghera
+      warehouse: COMPUTE_WH
+  target: dev

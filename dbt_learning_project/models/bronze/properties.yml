@@ -1,0 +1,14 @@
+
+# this is property leve config
+
+version: 2
+
+models:
+
+  - name: bronze_date
+    config:
+      materialized: view
+
+  - name: bronze_product
+    config:
+      materialized: view
