@@ -1,9 +1,9 @@
 dbt_learning_project:
   outputs:
     dev:
-      account: HFJKYZB-ZS17830
+      account: ********
       database: DBT_TUTORIAL_DEV
-      password: MEETaghera@12345
+      password: ********
       role: ACCOUNTADMIN
       schema: SOURCE
       threads: 4
@@ -11,9 +11,9 @@ dbt_learning_project:
       user: meetaghera
       warehouse: COMPUTE_WH
     prod:
-      account: HFJKYZB-ZS17830
+      account: ********
       database: DBT_TUTORIAL_PROD
-      password: MEETaghera@12345
+      password: ********
       role: ACCOUNTADMIN
       schema: SOURCE
       threads: 4
